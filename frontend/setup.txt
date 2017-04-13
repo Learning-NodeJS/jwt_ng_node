@@ -1,0 +1,41 @@
+npm install -g yo
+npm install -g bower
+npm install -g grunt-cli
+npm install -g generator-angular
+
+yo angular
+sass no
+bootstrap yes
+
+
+npm install --save-dev grunt-contrib-jshint
+npm install --save-dev grunt-contrib-uglify
+npm install --save-dev grunt-contrib-watch
+npm install --save-dev grunt-filerev
+npm install --save-dev grunt-google-cdn
+npm install --save-dev grunt-jscs
+npm install --save-dev grunt-newer
+npm install --save-dev grunt-ng-annotate
+npm install --save-dev grunt-postcss
+npm install --save-dev grunt-svgmin
+npm install --save-dev grunt-usemin
+npm install --save-dev grunt-wiredep
+npm install --save-dev jit-grunt
+npm install --save-dev jshint-stylish
+npm install --save-dev autoprefixer-core
+
+npm install --save-dev
+npm install --save-dev
+npm install --save-dev
+npm install --save-dev
+
+
+backend setup:
+------------------
+
+npm init
+npm install --save express
+node api.js
+npm install --save body-parser
+npm install --save mongoose
+npm install --save bcrypt-nodejs
